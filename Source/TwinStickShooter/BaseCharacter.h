@@ -21,7 +21,7 @@ public:
     UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Base Character")
         bool bIsDead = false;
 
-    // Make a helper function
+    // Helper function
     virtual void CalculateDead();
     
     // Expose a method (CalculateHealth)
