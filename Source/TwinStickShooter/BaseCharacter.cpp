@@ -32,7 +32,7 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
-void ABaseCharacter::CalculateHealth(float Delta)
+void ABaseCharacter::CalculateHealth(const float Delta)
 {
     Health += Delta;
     CalculateDead();

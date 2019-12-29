@@ -26,7 +26,7 @@ public:
     
     // Expose a method (CalculateHealth)
     UFUNCTION(BlueprintCallable, Category = "Base Character")
-        virtual void CalculateHealth(float Delta);
+        virtual void CalculateHealth(const float Delta);
 
 #if WITH_EDITOR
     // Editor code to make updating values in the editor cleaner
